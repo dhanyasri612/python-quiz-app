@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What is the output of print(2 ** 3)?",
+        "options": ["5", "6", "8", "9"],
+        "answer": "8"
+    },
+    {
+        "question": "Which of the following is a Python data type?",
+        "options": ["Integer", "Float", "String", "All of the above"],
+        "answer": "All of the above"
+    },
+    {
+        "question": "What does the // operator in Python do?",
+        "options": ["Addition", "Floor division", "Exponentiation", "Modulo"],
+        "answer": "Floor division"
+    },
+    {
+        "question": "What keyword is used to define a function in Python?",
+        "options": ["def", "func", "function", "define"],
+        "answer": "def"
+    },
+    {
+        "question": "Which method is used to add an element at the end of a list?",
+        "options": ["add()", "append()", "insert()", "extend()"],
+        "answer": "append()"
+    },
+    {
+        "question": "What is the output of len([1, 2, 3, 4])?",
+        "options": ["3", "4", "5", "Error"],
+        "answer": "4"
+    },
+    {
+        "question": "Which of the following is a mutable data type in Python?",
+        "options": ["tuple", "string", "list", "integer"],
+        "answer": "list"
+    },
+    {
+        "question": "What is the correct syntax to import a module in Python?",
+        "options": ["import module", "module import", "include module", "import_module"],
+        "answer": "import module"
+    },
+    {
+        "question": "How do you create a dictionary in Python?",
+        "options": ["dict()", "{ }", "[]", "set()"],
+        "answer": "{ }"
+    },
+    {
+        "question": "What is the correct way to create a variable in Python?",
+        "options": ["x = 5", "int x = 5", "int(x) = 5", "declare x = 5"],
+        "answer": "x = 5"
+    },
+    {
+        "question": "Which of the following is used for comments in Python?",
+        "options": ["// comment", "/* comment */", "# comment", "<!-- comment -->"],
+        "answer": "# comment"
+    },
+    {
+        "question": "What is the output of print(type(5))?",
+        "options": ["int", "<class 'int'>", "integer", "<type 'int'>"],
+        "answer": "<class 'int'>"
+    },
+    {
+        "question": "How do you get the length of a string in Python?",
+        "options": ["length(str)", "len(str)", "str.length()", "size(str)"],
+        "answer": "len(str)"
+    },
+    {
+        "question": "Which of the following is a loop in Python?",
+        "options": ["for", "while", "do-while", "Both for and while"],
+        "answer": "Both for and while"
+    },
+    {
+        "question": "What is the purpose of the 'break' keyword in Python?",
+        "options": ["Exit the loop", "Start a new loop", "Skip a loop iteration", "Restart the loop"],
+        "answer": "Exit the loop"
+    },
+    {
+        "question": "What is the output of 3 * 1 ** 3?",
+        "options": ["3", "1", "9", "0"],
+        "answer": "3"
+    },
+    {
+        "question": "What is the correct syntax to check if 'a' is equal to 'b'?",
+        "options": ["if a == b:", "if a = b:", "if (a == b)", "if (a = b)"],
+        "answer": "if a == b:"
+    },
+    {
+        "question": "Which of these is NOT a Python keyword?",
+        "options": ["def", "print", "return", "function"],
+        "answer": "function"
+    },
+    {
+        "question": "What is the output of print('Python'[1])?",
+        "options": ["P", "y", "t", "o"],
+        "answer": "y"
+    },
+    {
+        "question": "How do you start a for loop in Python?",
+        "options": ["for i in range(5):", "for (i = 0; i < 5; i++)", "for i = 1 to 5", "for (i, 5)"],
+        "answer": "for i in range(5):"
+    }
+]

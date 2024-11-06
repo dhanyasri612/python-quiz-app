@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Take the Quiz</h1>
+    
+    {% if score is not none %}
+        <div class="result">
+            <h2>Your Score: {{ score }} / {{ total }}</h2>
+        </div>
+    {% endif %}
+
+    <form action="/submit" method="post">
+        {% for i, question in questions %}
+            <h3>{{ question.question }}</h3>
+            {% for option in question.options %}
+                <label>
+                    <input type="radio" name="question-{{ i }}" value="{{ option }}"> {{ option }}
+                </label><br>
+            {% endfor %}
+        {% endfor %}
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
